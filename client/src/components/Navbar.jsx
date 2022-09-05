@@ -11,7 +11,7 @@ const Navbar = () => {
   let [open, setOpen] = useState(false);
   return (
     <nav className="shadow-md relative w-full bg-[#4292c0]">
-      <div className="md:flex justify-between py-4 md:px-10 px-4">
+      <div className="max-w-[1600px] md:flex justify-between mx-auto py-4 px-4">
         <div className="flex items-center font-bold cursor-pointer">
           <div className="hidden w-[75px] h-auto mr-4 md:block">
             <img src={memories} alt="Memories" className="rounded-full" />
